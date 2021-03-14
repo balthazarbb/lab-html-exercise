@@ -1,6 +1,11 @@
 <!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./style.css" /> 
+  <title>rpm-clone</title>
+</head>
+<body>
 <header>
-  
     <div>
       <link rel="stylesheet" href="style.css">
       <div>
@@ -18,90 +23,93 @@
         </ul>
       </nav>
     </div>
-  
-    <div>
-      <article>
-        <div>
-        <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/master/images/npm-logo.png">
-        <br>
-        <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/master/images/magnifying-glass.png" alt="magnifying-glass">
-          
-    </div>      
-    <br>    
-    <form id="form"> 
-    <input type="search" id="query" name="q" placeholder="Search...">
-    <button>Search</button>
-    </form>   
-        <br>
+<div>   
+    <article class="service-box">
         
-     <a href="/" target="_blank">Join Log In</a>
-      </article>
-      <section id="section-1">
-        <head>Build amaying things</head>
-        <article>
+        <img class="npmlogo" src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/master/images/npm-logo.png" alt="npm-logo"/>
+        <br>
+
+      <form id="form"> 
+        <img class="mag-glass" src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/master/images/magnifying-glass.png" alt="magnifying-glass"/>  
+      </form> 
+     
+    <input class="search" id="query" name="q" placeholder="Search...">
+    <button class="searchbtn">Search</button>
+  
+        <br>
+     <a href="#" target="_blank" class="joinbtn" >Join</a>   
+     <a href="#" target="_blank" class="loginbtn" >Log-In</a>
+    </button>   
+    </div>
+    </div>
+  </article>
+</header>
+
+      <section id="section1" >
+        <div id="build">
+        <h1>Build amazing things</h1>
+        <article class="introtxt">
         <p>Essential JavaScript development tools that help you go to market faster and build powerful applications using
   modern open source code</p>
-         </article>
-        
-        <div>
-        <a class="link-btn" href="#"> See plans </a>
-        <a class="link-btn" href="#"> Join  for free </a>
-         </div>
+
+
+        <br>
+        <div class="link">
+        <a href="#" class="seeplans"> See plans </a>
+        <a href="#" class="joinfree"> Join  for free </a>
+        </div>
       </section>
-      <section id="section-2">
-              <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/3a5dda422dd6e6fc4444645556e2a1ecc05879e9/images/triangle-hexagon.svg" alt="triangle-hexagon">
-        
+      
+      <br>
+      <section class="section2">
+              <img class="hexagon" src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/3a5dda422dd6e6fc4444645556e2a1ecc05879e9/images/triangle-hexagon.svg" alt="triangle-hexagon">
         <h2>Bring the best of open source to your company</h2>
-        <article>
+        <br>
+        <article class="introtxt">
           <a>npm is the tool used by
   over 11,000,000 JavaScript developers around the world. Your developers already use it. Your company depends on it.
   Create an Org and get more out of the tools your team already knows and loves</a>
        </article>
-        
       </section>
+
       <br>
       <article>
-      <section id="section-3">
-        <div>
+
           <br>
-      <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/3a5dda422dd6e6fc4444645556e2a1ecc05879e9/images/zero-configuration.svg" alt="zero configuration">
-          <a class="link-btn" href="#"> Zero configuration </a>
-          <p>Create an Org and get more out of the tools your team already knows and loves. Zero configuration Create an org, add
-  your team, and start collaborating. Nothing to configure, set up, or manage.</p>
-        </article>
-        <br>
-            <article>
-      <section id="section-3">
-        <div>
+          <section>
+   <div id='customize'>
+      <div class="infobox">
+        <img class="icon" src= "" alt="zero configuration"/>
+        <h4>Zero configuration</h4>
+        <p>Create an org, add your team, </br>and start collaborating.Nothing to configure, set up, or manage.</p>
+      </div>
+      <div class="infobox">
+        <img class="icon" src= "" alt="Familiar features"/>
+        <h4>Familiar features </h4>
+        <p>Control who has access to what modules within your team namespace using straightforward team management capabilities.</p>
+      </div>
+      <div class="infobox">
+        <img class="icon" src="" alt="Team management"/>
+        <h4>Team management</h4>
+        <p>npm Orgs has 100% parity with all the public npm registry features your developers already use.</p>
+      </div>
+      <div class="infobox">
+        <img class="icon" src="" alt=" NPM audit"/>
+        <h4>npm audit</h4>
+        <p>Enjoy the security auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
+      </div>
+    </article>
+          </div>
           <br>
-      <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/3a5dda422dd6e6fc4444645556e2a1ecc05879e9/images/team-management.svg" alt="Team-Management">
-          <a class="link-btn" href="#"> Team-Management </a>
-          <p>Control who has access to
-  what modules within your team namespace using straightforward team management capabilities.</p>
-        </article>
-        <br>
-          <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/3a5dda422dd6e6fc4444645556e2a1ecc05879e9/images/familiar-features.svg">
-          <a class="link-btn" href="#"> Familiar features </a>
-          <p>npm Orgs
-  has 100% parity with all the public npm registry features your developers already use.</p>
-        </article>
-        <br>
-        <img src="https://raw.githubusercontent.com/balthazarbb/lab-html-exercise/3a5dda422dd6e6fc4444645556e2a1ecc05879e9/images/npm-audit.svg">
-          <a class="link-btn" href="#"> npm-audit </a>
-          <p>Enjoy the security
-  auditing features built into the npm client, a zero-friction way to make open source software safer.</p>
-        </article>    
-            <article>
-      <section id="section-3">
-        <div>
-          <img src="">
-          <a class="link-btn" href="#"> Create an Org </a>
-          <p></p>
-        </article>
+          
+
+        <footer>
+          <div id="orgbtn">
+          <a class="link-btn-org" href="#"> Create an Org </a>
         </div>
-        
+          </footer>
+      </div>
       </section>
-      
-      <!-- add logo, search bar and buttons (or links and style them as buttons later) -->
     </div>
-  </header>
+  </body>
+  </html>
